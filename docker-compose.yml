@@ -1,0 +1,9 @@
+services:
+  ms-cep-search-engine:
+    container_name: ms-cep-search-engine
+    build: .
+    env_file:
+      - .env
+    ports:
+      - '3003:3003'
+    restart: always
