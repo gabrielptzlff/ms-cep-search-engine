@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "efd33e1a-f11d-4987-b05d-b223aad7358b",
+		"name": "ms-cep-search-engine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38181916"
+	},
+	"item": [
+		{
+			"name": "get address",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3003/viacep?cep=89700900",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3003",
+					"path": [
+						"viacep"
+					],
+					"query": [
+						{
+							"key": "cep",
+							"value": "89700900"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
