@@ -5,13 +5,13 @@
 1. Clone o projeto em sua máquina
 
    ```bash
-       git clone git@github.com:gabrielptzlff/ms-cep-search-engine.git
+   git clone git@github.com:gabrielptzlff/ms-cep-search-engine.git
    ```
 
 2. Crie o .env para configurar as variáveis de ambiente
 
    ```bash
-   cp ./.env.example ./.env
+   cp ./.env.homolog ./.env
    ```
 
 3. Faça o build e start dos containers
