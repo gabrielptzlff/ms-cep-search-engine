@@ -28,8 +28,6 @@
   npm i && npm run dev
   ```
 
-  > O .env DB_HOST pode ser o localhost, já em produção, o nome do container do postgres
-
 - Alguns comandos docker foram simplificados utilizando Make
 
 ---
